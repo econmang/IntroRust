@@ -1,0 +1,10 @@
+[package]
+name = "minigrep"
+version = "0.1.0"
+authors = ["Evan Conley <econmang@gmail.com>"]
+
+[lib]
+name = "minigrep_lib"
+path = "src/lib.rs"
+
+[dependencies]

@@ -1,0 +1,14 @@
+[package]
+name = "generics"
+version = "0.1.0"
+authors = ["Evan Conley <econmang@gmail.com>"]
+
+[lib]
+name = "mylib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "mybin"
+path = "src/main.rs"
+
+[dependencies]
